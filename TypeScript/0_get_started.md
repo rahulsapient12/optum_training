@@ -15,5 +15,7 @@
 3. TS can solve this kind of situations easily by haldling type specefic variables and functions.
 4. [JS File](./00_why_TS.js)
 5. [HTML File](./00_why_TS.html)
+6. npm install -g typescript
+7. tsc ./00_why_TypeScript.ts
 
 
