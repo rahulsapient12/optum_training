@@ -6,8 +6,10 @@ function add(x, y) {
   return x + y;
 }
 function addWithCheck(x, y) {
-  if (typeof parseInt(x) === "number" && typeof parseInt(y) === "number") {
-    return parseInt(x) + parseInt(y);
+  if (typeof x === "number" && typeof y === "number") {
+    return x + y;
+  } else {
+    return +x + +y;
   }
 }
 
