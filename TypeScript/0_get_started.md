@@ -4,10 +4,13 @@
     -> Features are compiled to JS workarounds.
 # 2. Why TypeScript ?
     -> Consider this example
-    ```function add(a,b){
-        return a + b;
-    }
-    console.log(add("1","5"))```
+        ```
+        function add(a,b){
+                return a + b;
+            }
+        console.log(add("1","5"))
+        ```
+    
     -> Here add funtion takes two parameters and adds both of them but we passed string of numbers this will result in output as `"15"`. 
     -> TS can solve this kind of situations easily by haldling type specefic variables and functions.
 https://github.com/rahulsapient12/optum_training/blob/master/TypeScript/00_why_TS.js   JS
