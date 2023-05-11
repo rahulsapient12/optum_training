@@ -13,6 +13,7 @@
 
 2. Here add funtion takes two parameters and adds both of them but we passed string of numbers this will result in output as `"15"`. 
 3. TS can solve this kind of situations easily by haldling type specefic variables and functions.
-4. https://github.com/rahulsapient12/optum_training/blob/master/TypeScript/00_why_TS.js   JS
-5. https://github.com/rahulsapient12/optum_training/blob/master/TypeScript/00_why_TS.html   HTML
+4. [a relative link](./00_why_TS.js)
+5. [a relative link](./00_why_TS.html)
+
 
