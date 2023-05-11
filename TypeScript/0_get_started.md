@@ -12,10 +12,10 @@
         ```js
         
         ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+            function test() {
+              console.log("notice the blank line before this function?");
+            }
+        ```
     
     -> Here add funtion takes two parameters and adds both of them but we passed string of numbers this will result in output as `"15"`. 
     -> TS can solve this kind of situations easily by haldling type specefic variables and functions.
