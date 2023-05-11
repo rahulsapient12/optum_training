@@ -16,4 +16,9 @@
 https://github.com/rahulsapient12/optum_training/blob/master/TypeScript/00_why_TS.js   JS
 https://github.com/rahulsapient12/optum_training/blob/master/TypeScript/00_why_TS.html   HTML
 
-    
+      ```
+        function add(a,b){
+                return a + b;
+            }
+        console.log(add("1","5"))
+        ```js
