@@ -15,10 +15,8 @@
     -> TS can solve this kind of situations easily by haldling type specefic variables and functions.
 https://github.com/rahulsapient12/optum_training/blob/master/TypeScript/00_why_TS.js   JS
 https://github.com/rahulsapient12/optum_training/blob/master/TypeScript/00_why_TS.html   HTML
-
-      ```
-        function add(a,b){
-                return a + b;
-            }
-        console.log(add("1","5"))
-        ```js
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
