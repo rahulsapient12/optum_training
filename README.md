@@ -1,4 +1,4 @@
-# This Repo consists of Traing Modules.
+# This Repo consists of Training Modules.
 
 1. JavaScript
 2. TypeScript
