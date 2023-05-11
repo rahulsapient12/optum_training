@@ -17,5 +17,6 @@
 5. [HTML File](./00_why_TS.html)
 6. npm install -g typescript
 7. tsc ./00_why_TypeScript.ts
+8. ![Screenshot (8)](https://github.com/rahulsapient12/optum_training/assets/113187955/b4ce7328-53e3-4c4f-a365-c6c68b17eeab)
 
 
