@@ -1,0 +1,25 @@
+name: shell commands
+on:
+  push:
+  pull_request:
+    types:
+      - closed
+      - assigned
+      - opened
+      - reopened
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string checking with Pull Request
+        run: echo "Hello Rahul"
+      - name: multiline string
+        run: |
+          node -v
+          npm -v
+      - name: Python Shell
+        run: |
+          import platform
+          print(platform.processor())
+          print("shell links https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#using-a-specific-shell")
+        shell: python
