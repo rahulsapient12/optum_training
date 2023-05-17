@@ -1,5 +1,12 @@
 name: shell commands
-on: [push]
+on:
+  push:
+  pull_request:
+    types:
+      - closed
+      - assigned
+      - opened
+      - reopened
 jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
@@ -16,4 +23,3 @@ jobs:
           print(platform.processor())
           print("shell links https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#using-a-specific-shell")
         shell: python
-
