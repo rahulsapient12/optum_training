@@ -4,7 +4,7 @@ jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
     steps:
-      - name: echo a string
+      - name: echo a string checking with Pull Request
         run: echo "Hello Rahul"
       - name: multiline string
         run: |
