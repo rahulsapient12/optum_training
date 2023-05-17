@@ -1,0 +1,10 @@
+name: Rahul Nayak
+age: 27
+address: 'Plot No: 606 Parbati Palace, Bomikhal'
+active: true
+myob:
+  key: Rahul
+  key2: Nayak
+myArr:
+  - Rahul
+  - Nayak
