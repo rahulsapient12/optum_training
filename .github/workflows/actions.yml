@@ -6,10 +6,14 @@ jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
+      - name: List Files
+        run: |
+          ls
+          pwd
       - name: Simple JS Actions Made By Rahul
         id: greet
         uses: actions/hello-world-javascript-action@3ee2a0320c9193ab716b86a9dae253f5c16bae62
         with:
           who-to-greet: Rahul Ranjan Nayak
-      - name: Log Greeting Time - Check 
+      - name: Log Greeting Time - Check
         run: echo "${{steps.greet.outputs.time}}"
